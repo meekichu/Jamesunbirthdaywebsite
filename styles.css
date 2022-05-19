@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(#7788A7, #364564);
+    color: ##2C2E30;
+}
+
+
+#bff-img {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #BDAE9F;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #BDAE9F;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #BDAE9F;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 400px;
+    border: 6px solid #BDAE9F;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media1.giphy.com/media/3o6nULWrY2acPYILGo/giphy.gif?cid=ecf05e47636q3ube11kkstl6us2s4yxlangj4kaaenay61w8&rid=giphy.gif&ct=g");
+    background-position: center;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media0.giphy.com/media/rVzvUgOpJlQkS06ZMO/giphy.webp");
+}
+
+#gift-img-quote:hover {
+    background-image: url("https://media1.giphy.com/media/we4Hp4J3n7riw/giphy.gif?cid=ecf05e475gzovoxersue38xelalxg4t8xtb3djyzqmqgsx4b&rid=giphy.gif&ct=g");
+}
+
+#gift-img-quote {
+    height: 500px;
+    background-position: center;
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media1.giphy.com/media/ffXJWN9NRGg0w/giphy.gif?cid=ecf05e47hdoghua34uefo7wf5vi1vv3q40rwpulenkxpx6t5&rid=giphy.gif&ct=g");
+}
+
+#gift-img-hammock:hover {
+    background-image: url("images/JamesHammock.gif");
+}
+
+#footer {
+        margin: 50px auto 20px auto;
+}
+
+#footer-gif {
+    background-image: url("https://c.tenor.com/X-EMzOmdms8AAAAC/i-made-this-for-you-julian-smith.gif");
+    border: 6px solid #BDAE9F;
+    border-radius: 10px;
+    max-width: 500px;
+    height: 280px;
+    background-size: center;
+    margin: 0px auto 100px auto;
+}
+
+a {
+    color: white;
+}
+
+#iggy {
+    margin: 0px auto 100px auto;
+}
